@@ -23,7 +23,7 @@ This bot is designed to be easily customizable. Here's where you can make change
         * Update the `if/elif` conditions (`if role_name == "Creative Storyteller":`) if you changed the button names in `prompts.py`.
         * Modify `confirmation_message` for each role to provide a custom welcome message when a user selects that role.
         * Adjust the default role initialized in `start` function (`chat_sessions[chat_id] = model.start_chat(history=FIRST_PROMPT)`) if you want a different default starting persona.
-    * **`start` function**: Customize the main welcome message (`Hello! I am your multi-role AI assistant...`) to fit your bot's personality. Remember to update the `[GitHub](YOUR_GITHUB_REPOSITORY_LINK_HERE)` with your actual repository link.
+    * **`start` function**: Customize the main welcome message (`Hello! I am your multi-role AI assistant...`) to fit your bot's personality.
     * **`handle_message` function**: Update the `if/elif` conditions (`if user_input == "Creative Storyteller":`) to match any changes made to the button names in `prompts.py`.
 
 * **`gemini_api.py`**
@@ -38,8 +38,8 @@ This bot is designed to be easily customizable. Here's where you can make change
 ## Setup:
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-    cd YOUR_REPOSITORY_NAME
+    git clone https://github.com/FiiiiiiiiiiiiiiiiiiiiiiiiSH/gemini-telegram-bot.git
+cd gemini-telegram-bot
     ```
 2.  **Install dependencies:**
     ```bash
@@ -93,7 +93,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
         * Обновите условия `if/elif` (`if role_name == "Creative Storyteller":`), если вы изменили названия кнопок в `prompts.py`.
         * Измените `confirmation_message` для каждой роли, чтобы предоставить пользовательское приветственное сообщение, когда пользователь выбирает эту роль.
         * Настройте роль по умолчанию, инициализируемую в функции `start` (`chat_sessions[chat_id] = model.start_chat(history=FIRST_PROMPT)`), если вы хотите другую персону по умолчанию при запуске.
-    * **Функция `start`**: Настройте основное приветственное сообщение (`Hello! I am your multi-role AI assistant...`), чтобы оно соответствовало индивидуальности вашего бота. Не забудьте обновить `[GitHub](YOUR_GITHUB_REPOSITORY_LINK_HERE)` на фактическую ссылку на ваш репозиторий.
+    * **Функция `start`**: Настройте основное приветственное сообщение (`Hello! I am your multi-role AI assistant...`), чтобы оно соответствовало индивидуальности вашего бота.
     * **Функция `handle_message`**: Обновите условия `if/elif` (`if user_input == "Creative Storyteller":`), чтобы они соответствовали любым изменениям, внесенным в названия кнопок в `prompts.py`.
 
 * **`gemini_api.py`**
@@ -108,8 +108,8 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ## Настройка:
 1.  **Клонируйте репозиторий:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-    cd YOUR_REPOSITORY_NAME
+    git clone https://github.com/FiiiiiiiiiiiiiiiiiiiiiiiiSH/gemini-telegram-bot.git
+cd gemini-telegram-bot
     ```
 2.  **Установите зависимости:**
     ```bash
