@@ -39,7 +39,7 @@ This bot is designed to be easily customizable. Here's where you can make change
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/FiiiiiiiiiiiiiiiiiiiiiiiiSH/gemini-telegram-bot.git
-cd gemini-telegram-bot
+    cd gemini-telegram-bot
     ```
 2.  **Install dependencies:**
     ```bash
@@ -109,7 +109,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 1.  **Клонируйте репозиторий:**
     ```bash
     git clone https://github.com/FiiiiiiiiiiiiiiiiiiiiiiiiSH/gemini-telegram-bot.git
-cd gemini-telegram-bot
+    cd gemini-telegram-bot
     ```
 2.  **Установите зависимости:**
     ```bash
